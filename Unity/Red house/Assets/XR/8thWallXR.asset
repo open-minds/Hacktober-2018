@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 682965911, guid: f7fff1a98506b0033937160dbbe857ba, type: 3}
+  m_Name: 8thWallXR
+  m_EditorClassIdentifier: 
+  allChannels:
+  - release
+  channel: release
+  installedChannel: 
+  version: 
+  autoUpdate: 1
+  autoUpdateSec: 3600
+  updateTimeoutSec: 25
+  downloadTimeoutSec: 600
+  updateAvailable: 0
+  releaseNotes:
+  - id: 8.1
+    notes: '## Release 8.1
+
+
+      Fixes:
+
+      * Fixed connection issues with XR Remote on Windows'
+  - id: 8
+    notes: "## Release 8\n\n* New features:\n  * Support for ARCore 1.3 with Vertical
+      Surfaces and Image Targets.\n  * Support for XR Remote in non-AR scenes.\n  *
+      Added ability to use 8th Wall SLAM on ARKit & ARCore devices.\n  * Added ability
+      to set initial camera facing direction.\n  * Added ability to increase camera
+      field of view in non-overlay scenes.\n\n\n* Enhancements and Fixes:\n  * Improved
+      8th Wall SLAM accuracy with enhanced bundle adjustment and point triangulation.\n
+      \ * Fixed Surface Controller mesh orientation for deformable meshes.\n  * Improved
+      behavior of all XRSurfaceController option combinations.\n  * Miscellaneous
+      bug fixes and improvements."
+  - id: 7.1
+    notes: "## Release 7.1\n\n* Fixes:\n  * Fix issue where detected instant surface
+      could detach from actual surface\n  * Fix XRSurfaceController issue where game
+      objects weren't rotated properly on vertical surfaces\n  * Fix camera rendering
+      issue on certain Android devices running API 21 and below\n  * Fix camera artifacts
+      on 720p iPads\n  * Fix issue where surface meshes are allocated but not destroyed
+      \ \n  * Fixed crash when attempting Image Detection on iOS devices running 11.2.x
+      or below"
+  - id: 7
+    notes: "## Release 7\n\n* New Features:\n  * Image detection API, supporting iOS
+      11.3+ devices with ARKit.\n  * Vertical surface detection, supporting iOS 11.3+
+      devices with ARKit.\n  * Camera Autofocus toggle on Android + iOS.\n  * World
+      point detection on all devices.\n  * Hit test API supported on all devices.\n
+      \ * Ambient color estimation and display for iOS ARKit.\n* Enhancements and
+      Fixes:\n  * 3x rendering performance speedup for iOS ARKit.\n  * 1080p high
+      resolution camera feed for iOS ARKit.\n  * Improved performance and stability
+      for instant surface tracking.\n  * Miscellaneous bug fixes and improvements."
+  - id: 6.3
+    notes: "## Release 6.3\n\n* Fixes:\n  * Fixed a few crashes on iOS."
+  - id: 6.2
+    notes: "## Release 6.2\n\n* Fixes:\n  * Fix for issue where AR objects appear
+      below the surface on certain phone and configuration combinations."
+  - id: 6.1
+    notes: "## Release 6.1\n\n- Fixes:\n  - Fix for missing DLLs on Windows\n  - Fix
+      for .NET 4.6 namespace conflicts"
+  - id: 6
+    notes: "## Release 6\n\n* New Features:\n  * Remote development with new Android/iOS
+      apps (8thwall.com/remote)\n  * 8th Wall apps now run on the Epson Moverio BT-300
+      (in 2D Mode)\n  * ARCore 1.0 support\n  * Tracking quality API\n  * Static API
+      for XRCapabilities\n  * Support for teams on console.8thwall.com\n* Enhancements
+      and Fixes:\n  * Landscape mode support\n  * Fix camera display orientation on
+      Nexus 5x\n  * Fix deformable surfaces for iOS"
+  - id: 5
+    notes: "## Release 5\n\n* New [8th Wall Console](https://console.8thwall.com)
+      - provides developer access to:\n  * Generate and manage App Keys.\n  * View
+      application analytics.\n  * Access downloads and documentation.\n* New Features:\n
+      \ * ARCore Preview 2 support.\n  * XRCapabilities API.\n  * OpenGL support on
+      iOS.\n  * Added support for Android phones without gyroscopes.\n* Enhancements
+      and Fixes:\n   * Performance improvements to rendering.\n   * Removed Android
+      Support Library dependency.\n   * Camera preview rendering performance improvements.\n
+      \  * Fix rendering on non-16x9 phones.\n   * Fix tracking orientation on Android
+      tablets.\n   * Fix ARCore aspect ratio.\n   * Updated default camera usage descriptions.\n
+      \  * Fix tracking for x86 architectures.\n   * Improved compatibility with developer
+      ProGuard configurations."
+  - id: 4
+    notes: "## Release 4\n* New Features:\n  * 6DoF camera motion for phones without
+      ARKit or ARCore.\n* Enhancements and Fixes:\n  * XRSurfaceController:\n    *
+      New: GetSurfaceWithId() - Ability to select surface with specific ID.\n    *
+      lockToFirstSurface: Fixed issue on phones without ARKit or ARCore.\n    * deformToSurface:
+      Fixed issue on phones without ARKit or ARCore.\n  * XRController:\n    * New:
+      Recenter() - Reset camera camera to original position on phones without ARKit
+      or ARCore.\n    * UpdateCameraProjectionMatrix() - Fixed issue on phones without
+      ARKit or ARCore.\n  * XREngine:\n    * Up to  3x improved performance on phones
+      without ARKit or ARCore.\n"
