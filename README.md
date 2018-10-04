@@ -5,8 +5,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 ## Welcome Home Team
 
 ###### CONTRIBUTORS MODEL EXAMPLE
-1. BONNOR OUSSAMA
-2. BAHRI Aimene
-3. Samir BELAROUI
-4. ADD your name here
-5. ..................
+* BONNOR OUSSAMA
+* BAHRI Aimene
+* Samir BELAROUI
+* ADD your name here
