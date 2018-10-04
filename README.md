@@ -18,8 +18,11 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 
 * Unity3D (Game Engine)
 * 8Th Wall (Augmented Reality Core)
+* Django (Framework)
+* VSCODE (IDE)
 
 ## Languages: 
 
 * C#
 * Shader Lab
+* Python Django
