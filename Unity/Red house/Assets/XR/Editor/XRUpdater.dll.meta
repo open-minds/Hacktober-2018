@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: f7fff1a98506b0033937160dbbe857ba
+PluginImporter:
+  serializedVersion: 2
+  iconMap:
+    XRVersionInfoClass: {fileID: 2800000, guid: 17831b04e2f79a437732cd3481e9edbc, type: 3}
+  executionOrder: {}
+  isPreloaded: 0
+  isOverridable: 0
+  platformData:
+    data:
+      first:
+        Any: 
+      second:
+        enabled: 0
+        settings: {}
+    data:
+      first:
+        Editor: Editor
+      second:
+        enabled: 1
+        settings:
+          DefaultValueInitialized: true
+    data:
+      first:
+        Windows Store Apps: WindowsStoreApps
+      second:
+        enabled: 0
+        settings:
+          CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
