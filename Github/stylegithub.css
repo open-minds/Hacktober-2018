@@ -1,0 +1,239 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 1000px;
+	margin: auto;
+	
+}
+header {
+	background-color: #24292E  ;
+	overflow: hidden;
+	height: 50px;
+	
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	margin-top: 5px;
+	font-family: fantasy;
+	font-size: 14px;
+	font-weight: bold;
+
+	
+	
+
+}
+.search{
+	
+	width: 300px;
+	height: 27px;
+	border:1px;
+	border-color: black;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+	background-color: #3F4448;
+	color: white;
+	display: inline-block;
+	float: left;
+
+}
+.git{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+/*************/
+.left-div{
+	margin-top: 25px;
+
+
+	
+}
+.right-div{
+
+
+	overflow: hidden;
+}
+.slide-One{
+float: left;
+}
+.cadre{
+	width: 70%;
+	
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #F1F6FB;
+	border:5px;
+	border-radius: 5px;
+	border-color: red;
+	overflow: hidden;
+
+	
+}
+.mytof{
+	width: 230px;
+	height: 230px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+
+}
+.title{
+	color: #666666 ;
+	font-size: 20px;
+	font-family: fantasy;
+	font-style: unset;
+	font-weight: normal;
+	opacity: 0.6;
+}
+
+.stylo{
+	width: 10px; height: 10px;
+}
+.texte{
+	width: 80%;
+	color: #244F79;
+	font-family: fantasy;
+	font-size: 15px;
+	float: left;
+}
+.mybutton{
+	float: right;
+	color: white;
+	padding: 7px;
+	font-style: normal;
+	background-color: #2DC350;
+	width: 100px;
+	height: 30px;
+	border:5px;
+	border-color: green;
+	border-radius: 5px;
+
+}
+.one{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	
+}
+.one ,.tow{
+	width: 100%;
+	height: 35px;
+	color: rgb(54,54,54);
+	background-color: #ECF0F4 ;
+	border-radius: 5px;
+	border:2px;
+	border-color: red;
+	font-family: fantasy;
+	font-weight: bold;
+
+
+}
+/***************/
+.lien{
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.lien a{
+	text-decoration: none;
+
+	color: #666666;
+	margin-right: 40px;
+	font-family: fantasy;
+	font-size: 15px;
+
+}
+hr{
+	width: 75%;
+	margin-left: 20px;
+	opacity: 0.2;
+}
+/****************/
+.search-bar{
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+.search-bar .reposearch{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	opacity: 0.6;
+	border-color: gray;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-color: #ECF0F4;
+	
+
+
+}
+.search-bar button{
+	height: 35px;
+	color: rgb(54,54,54);
+	background-color: #ECF0F4 ;
+	border-radius: 5px;
+	
+	text-align: center;
+}
+.b1{
+	width: 95px;
+	border: 2px;
+	border-color: #ECF0F4;
+
+}
+.b2{
+	width: 120px;
+	margin-right: 20px;
+	border: 2px;
+
+	border-color: #ECF0F4;
+}
+.search-bar .b3{
+	width: 80px;
+	height: 35px;
+	color: white;
+	background-color: #2DC350;
+	border-color: green;
+	border:2px;
+	font-weight: bold;
+}
+/*********/
+.repo{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.repo a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #036ADB;
+	font-size: 25px;
+	font-family: fantasy;
+
+}
+.repo p{
+	color: #666666;
+	margin-bottom: 30px;
+	font-family: fantasy;
+}
+aside{
+	width: 12px;
+	height: 12px;
+	background-color:#E34C26;
+	border-radius: 50%;
+	display: inline-block;
+}
+.html{
+	font-size: 15px;
+	color: #666666;
+	font-family: sans-serif;
+	font-style: normal;
+	display: inline-block;
+}
