@@ -13,13 +13,19 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 
 * Rocket ride (Unity 2D game for mobile).
 * Red House (Unity 3D AR demo)
+* Password Generator (Java Swing)
 
 ## Technologies & IDE: 
 
 * Unity3D (Game Engine)
 * 8Th Wall (Augmented Reality Core)
+* Django (Framework)
+* VSCODE (IDE)
+* Eclipse (IDE)
 
 ## Languages: 
 
 * C#
 * Shader Lab
+* Python Django
+* Java 
