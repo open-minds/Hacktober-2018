@@ -2,18 +2,18 @@
 public class Joueur {
  private String Pseudo;
 private static   int score  ;
-public Joueur(String Pseudo) {
-	this.Pseudo=Pseudo;
+public Joueur(String Nom) {
+	this.Nom=Nom;
 	this.score=score;
 }
 
-public String getPseudo ()
+public String getNom ()
 {
-	return Pseudo;
+	return Nom;
 }
-public void setPseudo(String Pseudo)
+public void setNom(String Nom)
 {
-	this.Pseudo = Pseudo;
+	this.Nom = Nom;
 }
 public int getScore ()
 {
