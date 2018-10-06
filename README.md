@@ -17,6 +17,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Password Generator (Java Swing)
 * Find the Letter (Android app)
 * Login (Java Fx)
+* GeoCalculator (Java)
 
 ## Technologies & IDE: 
 
