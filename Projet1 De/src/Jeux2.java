@@ -11,8 +11,8 @@ public class Jeux2 {
 		int t = sc.nextInt();
 		for (int i = 0; i < j; i++) {
 			System.out.println("le Pseudo de joueur" + (i + 1) + ":");
-			String Pseudo = sc.next();
-			ja.add(new Joueur(Pseudo));
+			String Nom = sc.next();
+			ja.add(new Joueur(Nom));
 
 		}
 		for (int i = 0; i < t; i++) {
@@ -37,7 +37,7 @@ public class Jeux2 {
 				w = ja.get(i).getPseudo();
 
 		}
-		System.out.println(w + " a gangé");
+		System.out.println(w + " a gangÃ©");
 	}
 
 }
