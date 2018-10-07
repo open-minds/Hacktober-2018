@@ -7,8 +7,10 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * BAHRI Aimene
 * Kebir abed
 * Samir BELAROUI
+* Benabdellah Imene
 * Iftene Nada
 * DOBALLAH Redz
+* Kolli Youcef Hamza
 * ADD your name here
 
 ## Projects: 
@@ -17,6 +19,8 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Red House (Unity 3D AR demo)
 * Password Generator (Java Swing)
 * Find the Letter (Android app)
+* Login (Java Fx)
+* GeoCalculator (Java)
 * Form creation (Site web)
 * Github
 
@@ -29,6 +33,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Eclipse (IDE)
 * Android studio (IDE)
 * Sublime text (Text editor) 
+
 
 ## Languages: 
 
