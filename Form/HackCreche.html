@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hackathon</title>
+	<link rel="stylesheet" type="text/css" href="crechStyle.css">
+</head>
+<body>
+	<section id="all">
+  
+	<header>
+		<img id="teamTof" src="images/167707.png" alt="team">
+
+	</header>
+	<div class="rigth">
+	<h2 id="title">Créche des petits anges</h2>
+	</div>
+	
+	<nav>
+		<ul>
+			<li>
+				<a href="HackCreche.html">
+					<div class="icon">
+						<img class="fa fa-code1" src="images/44884.png">
+						<img class="fa fa-code1" src="images/44884.png">
+					</div>
+					
+					<div class="nameOne"> <span data-text="Home">Home</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="icon">
+						<img class="fa fa-code2" src="images/181515.png">
+						<img class="fa fa-code2" src="images/181515.png">
+					</div>
+					
+					<div class="nameOne" ><span data-text="Mot de directrice">Mot de directrice</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<div class="icon">
+						<img class="fa fa-code3" src="images/181532.png">
+						<img class="fa fa-code3" src="images/181532.png">
+
+					</div>
+					
+					<div class="nameOne" > <span data-text="Lire notre charte">Lire notre charte</span> </div>
+				</a>
+			</li>
+			<li>
+				<a href="hackCreche2.html">
+					<div class="icon">
+						<img class="fa fa-code4" src="images/181551.png">
+						<img class="fa fa-code4" src="images/181551.png">
+
+					</div>
+					
+					<div class="nameOne" ><span data-text="Nous contacter">Nous contacter</span> </div>
+				</a>
+			</li>
+			
+			
+		</ul>
+	</nav>
+</section>
+<div class="clear"></div>
+
+
+<div class="mag">
+<legend id="leg">Inscrire votre enfant</legend>
+
+
+		<img src="images/enfant.jpg" alt="image enfant" class="enfant">
+	</div>
+
+
+
+
+
+	<form method="POST" action="reception.PHP">
+
+		<table id="tab">
+			<thead>
+			<tr>
+				<td>
+					<fieldset id="fieldOne">
+		<legend>Renseiggnements sur l'enfant: </legend>
+		<table>
+			<tr>
+			<td>
+				<label>Nom(*)</label>
+			</td>
+			<td>
+				<input type="text" name="nom" placeholder="Entrer votre nom" class="put">
+			</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Prénom(*)</label>
+				</td>
+				<td>
+					<input type="text" name="prenom" placeholder="Entrer votre prenom" class="put">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Genre</label>
+				</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="genre" value="Garçon">Garçon
+		            <input type="radio" name="genre" value="Fille">Fille
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Naissance(*)</label>
+				</td>
+				<td>
+					<input type="date" name="date naissance" min="1990-01-01" max="2018-02-18" class="put"> à 
+					<select>
+						<option>Oran</option>
+						<option>Alger</option>
+						<option>Tlemcen</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Photo</label>
+				</td>
+				<td>
+					<input type="file" name="Choisissez un fichier" class="inputfile">
+				</td>
+			</tr>
+			
+		</table>
+		
+	</fieldset>	
+				</td>
+				<td>
+					<fieldset id="fieldTow">
+		                <legend>Renseignements sur les parents:</legend>
+		                <table>
+		                	<tr>
+		                		<td>
+		                			<label>Prénom du pére(*)</label>
+		                		</td>
+		                		<td>
+		                			<input type="text" name="prenom data" placeholder="Entrer le prénom du pére" class="put">
+		                		</td>
+		                	</tr>
+		                	<tr>
+		                		<td>
+		                			 <label>Nom &amp; Prénom de la mère(*)</label>
+		                		</td>
+		                		<td>
+		                			<input type="text" name="nom mr" placeholder="Entrer le nom et le prénom du mère" class="put">
+		                		</td>
+		                	</tr>
+		                	<tr>
+		                		<td>
+		                			 <label>Télephone(*)</label>
+		                		</td>
+		                		<td>
+		                			<input type="text" name="tlf" placeholder="Entrer votre num" class="put">
+		                		</td>
+		                	</tr>
+		                	<tr>
+		                		<td>
+		                			<label>Adresse(*)</label>
+		                		</td>
+		                		<td>
+		                			<textarea name="commentaire" rows="3" cols="40">
+		                	        Votre adresse ici....
+		                            </textarea>
+
+		                		</td>
+		                	</tr>
+		                </table>
+		      
+	                </fieldset>
+
+					
+				</td>
+			</tr>
+			</thead>
+			<tr>
+				<td colspan="2">
+					<fieldset class="fie">
+		                <legend>Préférences:</legend>
+		                <table>
+		                	<tr>
+		                		<td>Restauration</td>
+		                		<td>
+		                			<input type="checkbox" name="a1" checked="" >
+		                			<label>Fruits</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		                			<input type="checkbox" name="a2" checked="">
+		                			<label>Prod laitiers</label><br>
+		                			<input type="checkbox" name="a3">
+		                			<label>Sucrerie</label>&nbsp;
+		                			<input type="checkbox" name="a4" >
+		                			<label>Repas chaud</label>
+		                		</td>
+		                		<td>Programme à enseigner</td>
+		                		<td>
+		                			<select name="time" size="4">
+						                  <optgroup label="Religion">
+		                					<option>Coran</option>
+		                					<option>Histoire des Prophètes</option>
+		                				</optgroup>
+		                				<optgroup label="Mathémathique">
+		                					<option>Addition</option>
+		                					<option>Soustraction</option>
+		                				</optgroup>
+					</select>
+		                		</td>
+		                	</tr>
+		                </table>
+		
+	</fieldset>
+
+				</td>
+			</tr>
+			<tfoot>
+			<tr>
+				<td colspan="2">
+					<fieldset class="fie">
+		                <legend>Validation de l'inscription</legend>
+		                <input type="reset" name="valid" value="Réinitialisez l'inscription" class="in">
+		                <input type="submit" name="sov" value="Sommettez l'inscription" class="in">
+		
+		
+	</fieldset>
+
+					
+				</td>
+			</tr>
+			</tfoot>
+		</table>
+	</form>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src ="HackScript.js" type="text/javascript"></script>
+
+</body>
+</html>

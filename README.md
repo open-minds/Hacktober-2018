@@ -8,6 +8,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Kebir abed
 * Samir BELAROUI
 * Benabdellah Imene
+* Iftene Nada
 * ADD your name here
 
 ## Projects: 
@@ -18,6 +19,8 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Find the Letter (Android app)
 * Login (Java Fx)
 * GeoCalculator (Java)
+* Form creation (Site web)
+* Github
 
 ## Technologies & IDE: 
 
@@ -26,7 +29,8 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Django (Framework)
 * VSCODE (IDE)
 * Eclipse (IDE)
-* Android studio (IDE) 
+* Android studio (IDE)
+* Sublime text (Text editor) 
 
 
 ## Languages: 
@@ -36,3 +40,5 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Python Django
 * Java 
 * XML 
+* HTML
+* CSS
