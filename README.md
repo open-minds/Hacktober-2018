@@ -9,6 +9,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Samir BELAROUI
 * Benabdellah Imene
 * Iftene Nada
+* DOBALLAH Redz
 * Kolli Youcef Hamza
 * ADD your name here
 
