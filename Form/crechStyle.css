@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-color: rgba(255,0,0,0.6);
+	background-color: rgba(154, 155, 243, 0.712);
 }
 #all{
 	margin-left: 40px;
@@ -221,7 +221,7 @@ table legend{
 .enfant{
 	margin-top: 20px;
 	border-radius: 5px;
-	box-shadow: 0 10px 30px red
+	box-shadow: 0 10px 30px rgba(227, 227, 240, 0.712);
 
 
 }
