@@ -11,6 +11,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Iftene Nada
 * DOBALLAH Redz
 * Kolli Youcef Hamza
+* MKHTARI A. Islem (Wizard)
 * ADD your name here
 
 ## Projects: 
@@ -22,6 +23,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Login (Java Fx)
 * GeoCalculator (Java)
 * Form creation (Site web)
+* Blender (3D scene model)
 * Github
 
 ## Technologies & IDE: 
@@ -33,7 +35,7 @@ Repo for TOM members dedicated for the Hacktober fest of 2018 (5th edition), thi
 * Eclipse (IDE)
 * Android studio (IDE)
 * Sublime text (Text editor) 
-
+* Blender (3D creation suite)
 
 ## Languages: 
 
