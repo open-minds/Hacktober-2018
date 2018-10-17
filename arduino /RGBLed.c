@@ -10,7 +10,7 @@ void setup() {
  pinMode(RED,OUTPUT);
  digitalWrite(RED, LOW);
  digitalWrite(GREEN, LOW);
- digitalWrite(BLEU, HIGH);
+ digitalWrite(BLEU, HIgit GH);
  
 }
 int redvalue=0; 
