@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="389.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fitHeight="409.0" fitWidth="714.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@large_thumbnail.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="j1" layoutX="648.0" layoutY="188.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="119.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button fx:id="j2" layoutX="568.0" layoutY="188.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="106.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="j4" layoutX="421.0" layoutY="190.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="87.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="j5" layoutX="207.0" layoutY="189.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="87.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="j6" layoutX="130.0" layoutY="189.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="96.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="j7" layoutX="59.0" layoutY="188.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="106.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="j8" layoutY="194.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="119.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <Button fx:id="solution" layoutX="320.0" layoutY="189.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="87.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+        <TextField fx:id="sol" alignment="CENTER" editable="false" layoutX="313.0" layoutY="283.0" prefHeight="48.0" prefWidth="66.0" style="-fx-background-color: transparent;" text="?">
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor>
+            <font>
+                <Font name="Times New Roman Bold" size="24.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="com" alignment="CENTER" blendMode="COLOR_BURN" editable="false" layoutX="270.0" layoutY="137.0" prefHeight="25.0" prefWidth="152.0" style="-fx-background-color: transparent;" text="commentaire">
+            <font>
+                <Font name="Times New Roman Bold Italic" size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s2" alignment="CENTER" editable="false" layoutX="560.0" layoutY="256.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: trasparent;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s1" alignment="CENTER" editable="false" layoutX="634.0" layoutY="265.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s3" alignment="CENTER" editable="false" layoutX="492.0" layoutY="249.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s4" alignment="CENTER" editable="false" layoutX="421.0" layoutY="243.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s6" alignment="CENTER" editable="false" layoutX="156.0" layoutY="249.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s5" alignment="CENTER" editable="false" layoutX="226.0" layoutY="242.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s7" alignment="CENTER" editable="false" layoutX="83.0" layoutY="254.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="s8" alignment="CENTER" editable="false" layoutX="9.0" layoutY="267.0" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: 1;" text="?">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="j3" layoutX="492.0" layoutY="191.0" mnemonicParsing="false" onAction="#ButtonAction" opacity="0.0" prefHeight="96.0" prefWidth="52.0" text="Button">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+    </children>
+</Pane>

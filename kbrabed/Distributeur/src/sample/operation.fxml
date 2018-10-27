@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="375.0" prefWidth="229.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="455.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="v1" layoutX="62.0" layoutY="132.0" mnemonicParsing="false" onAction="#verser" opacity="0.0" text="Button" />
+      <Button fx:id="v2" layoutX="126.0" layoutY="132.0" mnemonicParsing="false" onAction="#retirer" opacity="0.0" text="Button" />
+      <Button fx:id="v3" layoutX="62.0" layoutY="180.0" mnemonicParsing="false" onAction="#retirer" opacity="0.0" text="Button" />
+      <Button fx:id="v4" layoutX="126.0" layoutY="180.0" mnemonicParsing="false" onAction="#retirer" opacity="0.0" text="Button" />
+      <Button layoutX="36.0" layoutY="237.0" mnemonicParsing="false" onAction="#retirer" prefHeight="73.0" prefWidth="81.0" style="-fx-background-color: grey;" text="Retirer" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="120.0" layoutY="237.0" mnemonicParsing="false" onAction="#verser" prefHeight="73.0" prefWidth="81.0" style="-fx-background-color: grey;" text="Verser" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="69.0" layoutY="327.0" mnemonicParsing="false" onAction="#consulter" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: black;" text="Consulter" textFill="GREEN">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="commentaireop" alignment="CENTER" editable="false" layoutX="8.0" layoutY="68.0" prefHeight="34.0" prefWidth="222.0" style="-fx-background-color: grey;" />
+   </children>
+</AnchorPane>
